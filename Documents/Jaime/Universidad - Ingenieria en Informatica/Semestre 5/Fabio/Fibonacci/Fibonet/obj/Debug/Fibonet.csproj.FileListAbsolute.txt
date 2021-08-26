@@ -1,0 +1,7 @@
+C:\Users\Jaime\Documents\Jaime\Universidad - Ingenieria en Informatica\Semestre 5\Fabio\Fibonacci\Fibonet\bin\Debug\Fibonet.exe.config
+C:\Users\Jaime\Documents\Jaime\Universidad - Ingenieria en Informatica\Semestre 5\Fabio\Fibonacci\Fibonet\bin\Debug\Fibonet.exe
+C:\Users\Jaime\Documents\Jaime\Universidad - Ingenieria en Informatica\Semestre 5\Fabio\Fibonacci\Fibonet\bin\Debug\Fibonet.pdb
+C:\Users\Jaime\Documents\Jaime\Universidad - Ingenieria en Informatica\Semestre 5\Fabio\Fibonacci\Fibonet\obj\Debug\Fibonet.csprojAssemblyReference.cache
+C:\Users\Jaime\Documents\Jaime\Universidad - Ingenieria en Informatica\Semestre 5\Fabio\Fibonacci\Fibonet\obj\Debug\Fibonet.csproj.CoreCompileInputs.cache
+C:\Users\Jaime\Documents\Jaime\Universidad - Ingenieria en Informatica\Semestre 5\Fabio\Fibonacci\Fibonet\obj\Debug\Fibonet.exe
+C:\Users\Jaime\Documents\Jaime\Universidad - Ingenieria en Informatica\Semestre 5\Fabio\Fibonacci\Fibonet\obj\Debug\Fibonet.pdb

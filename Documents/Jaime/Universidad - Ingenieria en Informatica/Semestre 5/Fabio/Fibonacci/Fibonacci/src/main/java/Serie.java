@@ -17,7 +17,10 @@ public class Serie {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-    Scanner numero = new Scanner(System.in);
+    calcularSerieFinobacci(7);
+    }
+
+    public static void calcularSerieFinobacci(int numero){
         int x=0 ; 
         int y=1 ; 
         int n;
@@ -25,36 +28,37 @@ public class Serie {
         int aux;
         int val = 0;
                 
-        System.out.println ("Introduce un numero para hallar el Fibonacci: ");
-        r = numero.nextInt();
+        r =numero;
         
         System.out.println("Tenemos");
         
         for (int i = 0; i < r ;i++){
             
-            System.out.print(x);
-            
-            for (int j = 2; j < x; j++){
-                
-                    aux= x % j;
-
-                    if (aux==0){
-                    val=1;
-                    }
-                }
-
-                if (val == 1){
-                    System.out.println("no es primo");
-                }
-                else{
-                    System.out.println(" no es primo");
-                }
-                
+            boolean esprimo = esPrimo(x);
+            System.out.print("El numero " + x + " es primo? " +esprimo +"\n");
             n=x+y;
             x=y;
             y=n;
             val=0;
             }
-    }      
-            
+    }
+    
+    public static boolean esPrimo(int numero) {
+
+        if (numero == 1) {
+            return false;
+        } 
+        if (numero == 0) {
+            return false;
+        } 
+        else {
+            for (int i = 2; i < numero; i++) {
+                if (numero % i == 0) {
+                    return false;
+                }
+            }
+            return true;
+        }
+    }
+
 }
