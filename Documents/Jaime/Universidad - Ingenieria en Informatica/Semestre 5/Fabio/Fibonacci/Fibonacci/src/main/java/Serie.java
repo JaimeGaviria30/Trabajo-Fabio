@@ -17,18 +17,18 @@ public class Serie {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-    calcularSerieFinobacci(7);
+    CalcularSerieFinobacci(7);  // llamado del metodo
     }
 
-    public static void calcularSerieFinobacci(int numero){
-        int x=0 ; 
-        int y=1 ; 
-        int n;
-        int r;
+    public static void CalcularSerieFinobacci(int numero){  //metodo para realizar la serie
+        int x=0 ;       //variable inicial de la serie
+        int y=1 ;       //variable consecutiva a la inicial en la serie
+        int n;          // utilizada para almacenar el valor de la suma
+        int r;          //me almacena el dato del tipo de numero
         int aux;
         int val = 0;
                 
-        r =numero;
+        r =numero; //asignacion del valor
         
         System.out.println("Tenemos");
         
@@ -43,7 +43,7 @@ public class Serie {
             }
     }
     
-    public static boolean esPrimo(int numero) {
+    public static boolean esPrimo(int numero) { //definicion de si es primo o no
 
         if (numero == 1) {
             return false;
