@@ -17,7 +17,8 @@ public class Serie {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-    CalcularSerieFinobacci(7);  // llamado del metodo
+    CalcularSerieFinobacci(10
+    );  // llamado del metodo
     }
 
     public static void CalcularSerieFinobacci(int numero){  //metodo para realizar la serie
